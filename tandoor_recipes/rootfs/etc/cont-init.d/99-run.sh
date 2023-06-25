@@ -9,6 +9,7 @@
 export ALLOWED_HOSTS=$(bashio::config 'ALLOWED_HOSTS') && bashio::log.blue "ALLOWED_HOSTS=$ALLOWED_HOSTS"
 export SECRET_KEY=$(bashio::config 'SECRET_KEY') && bashio::log.blue "SECRET_KEY=$SECRET_KEY"
 export DEBUG=$(bashio::config 'DEBUG') && bashio::log.blue "DEBUG=$DEBUG"
+export GUNICORN_MEDIA=$(bashio::config 'GUNICORN_MEDIA') && bashio::log.blue "GUNICORN_MEDIA=$GUNICORN_MEDIA"
 
 CSRF_TRUSTED_ORIGINS="http://localhost"
 for element in ${ALLOWED_HOSTS//,/ }; do # Separate comma separated values
