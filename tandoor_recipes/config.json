@@ -73,6 +73,7 @@
     "DEBUG": "0",
     "SECRET_KEY": "YOUR_SECRET_KEY",
     "externalfiles_folder": "/config/addons_config/tandoor_recipes/externalfiles"
+    "GUNICORN_MEDIA": "0"
   },
   "panel_icon": "mdi:silverware-fork-knife",
   "panel_title": "Tandoor Recipes",
@@ -86,6 +87,7 @@
     "ALLOWED_HOSTS": "str?",
     "DB_TYPE": "list(sqlite|postgresql_external)",
     "DEBUG": "list(1|0)",
+    "GUNICORN_MEDIA": "list(1|0)",
     "POSTGRES_DB": "str?",
     "POSTGRES_HOST": "str?",
     "POSTGRES_PASSWORD": "str?",
