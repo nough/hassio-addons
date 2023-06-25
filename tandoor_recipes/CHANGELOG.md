@@ -1,3 +1,6 @@
+### 1.5.1-1 (25-06-2023)
+- added DOCS.md with configuration information
+- added option to disable GUNICORN_MEDIA - this is safer. You need a separate webserver though.
 
 ## 1.5.1 (24-06-2023)
 - Update to latest version from TandoorRecipes/recipes
