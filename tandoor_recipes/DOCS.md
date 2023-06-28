@@ -19,7 +19,7 @@ Optional :
     "externalfiles_folder": "str?" # a folder that you want to map in to tandoor. Not needed as /share/ and /media/ are mapped. This folder will be created if it doesn't already exist.
 ```
 ### Mariadb
-a popular database option in the homeassistant community is mariadb. This is a separate addon. It can be configured...
+Mariadb is a popular addon in the home assistant community, however it is not supported by the Tandoor Recipes application.
 
 ### Debug mode
 This is the "Environment" setting.
